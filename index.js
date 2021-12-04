@@ -15,7 +15,7 @@ function runDOM (data) {
 
 function createElement (data) {
 
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < 500; i++) {
         const el = data[i];
 
         main.innerHTML += `
